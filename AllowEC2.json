@@ -1,0 +1,37 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1522354832000",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Sid": "Stmt1522354824000",
+            "Effect": "Deny",
+            "Action": [
+                "ec2:AcceptReservedInstancesExchangeQuote",
+                "ec2:CancelReservedInstancesListing",
+                "ec2:CreateReservedInstancesListing",
+                "ec2:DescribeReservedInstances",
+                "ec2:DescribeReservedInstancesListings",
+                "ec2:DescribeReservedInstancesModifications",
+                "ec2:DescribeReservedInstancesOfferings",
+                "ec2:GetHostReservationPurchasePreview",
+                "ec2:GetReservedInstancesExchangeQuote",
+                "ec2:ModifyReservedInstances",
+                "ec2:PurchaseHostReservation",
+                "ec2:PurchaseReservedInstancesOffering",
+                "ec2:PurchaseScheduledInstances"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
