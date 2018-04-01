@@ -1,0 +1,76 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1522356173000",
+            "Effect": "Allow",
+            "Action": [
+                "route53:AssociateVPCWithHostedZone",
+                "route53:ChangeResourceRecordSets",
+                "route53:ChangeTagsForResource",
+                "route53:CreateHostedZone",
+                "route53:DeleteHostedZone",
+                "route53:DisableDomainAutoRenew",
+                "route53:DisassociateVPCFromHostedZone",
+                "route53:EnableDomainAutoRenew",
+                "route53:GetChange",
+                "route53:GetCheckerIpRanges",
+                "route53:GetGeoLocation",
+                "route53:GetHealthCheck",
+                "route53:GetHealthCheckCount",
+                "route53:GetHealthCheckLastFailureReason",
+                "route53:GetHealthCheckStatus",
+                "route53:GetHostedZone",
+                "route53:GetHostedZoneCount",
+                "route53:GetReusableDelegationSet",
+                "route53:GetTrafficPolicy",
+                "route53:GetTrafficPolicyInstance",
+                "route53:GetTrafficPolicyInstanceCount",
+                "route53:ListGeoLocations",
+                "route53:ListHealthChecks",
+                "route53:ListHostedZones",
+                "route53:ListHostedZonesByName",
+                "route53:ListResourceRecordSets",
+                "route53:ListReusableDelegationSets",
+                "route53:ListTagsForResource",
+                "route53:ListTagsForResources",
+                "route53:ListTrafficPolicies",
+                "route53:ListTrafficPolicyInstances",
+                "route53:ListTrafficPolicyInstancesByHostedZone",
+                "route53:ListTrafficPolicyInstancesByPolicy",
+                "route53:ListTrafficPolicyVersions",
+                "route53:ListVPCAssociationAuthorizations",
+                "route53:TestDNSAnswer",
+                "route53:UpdateHostedZoneComment"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Sid": "Stmt1522356224000",
+            "Effect": "Allow",
+            "Action": [
+                "route53domains:CheckDomainAvailability",
+                "route53domains:DisableDomainAutoRenew",
+                "route53domains:DisableDomainTransferLock",
+                "route53domains:EnableDomainAutoRenew",
+                "route53domains:EnableDomainTransferLock",
+                "route53domains:GetContactReachabilityStatus",
+                "route53domains:GetDomainDetail",
+                "route53domains:GetDomainSuggestions",
+                "route53domains:GetOperationDetail",
+                "route53domains:ListDomains",
+                "route53domains:ListOperations",
+                "route53domains:ListTagsForDomain",
+                "route53domains:RenewDomain",
+                "route53domains:ResendContactReachabilityEmail",
+                "route53domains:RetrieveDomainAuthCode",
+                "route53domains:ViewBilling"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
