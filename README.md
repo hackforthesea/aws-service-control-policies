@@ -1,4 +1,4 @@
-# Sandbox Service Control Policies _(aws-service-control-policies)_
+# AWS Service Control Policies _(aws-service-control-policies)_
 
 > Service Control Policies we use in the AWS Organizations configuration for the Hacker Sandbox 
 
