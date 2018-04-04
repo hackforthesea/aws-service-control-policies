@@ -12,10 +12,43 @@
             ]
         },
         {
+            "Sid": "Stmt1522847793000",
+            "Effect": "Allow",
+            "Action": [
+                "support:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
             "Sid": "Stmt1522847569000",
             "Effect": "Allow",
             "Action": [
                 "iam:DeleteRole"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Sid": "Stmt1522857489000",
+            "Effect": "Allow",
+            "Action": [
+                "kms:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Sid": "Stmt1522857714000",
+            "Effect": "Allow",
+            "Action": [
+                "aws-portal:ViewAccount",
+                "aws-portal:ViewBilling",
+                "aws-portal:ViewPaymentMethods",
+                "aws-portal:ViewUsage"
             ],
             "Resource": [
                 "*"
