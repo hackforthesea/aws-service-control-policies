@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1522847548000",
+            "Effect": "Allow",
+            "Action": [
+                "iam:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Sid": "Stmt1522847569000",
+            "Effect": "Allow",
+            "Action": [
+                "iam:DeleteRole"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
